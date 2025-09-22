@@ -35,6 +35,7 @@ These elements combine to ensure excellent maneuverability and performance on th
 
 - **define the sensors**:
 - ----------------------
+```
 #define TRIGGER_PIN_R1 52  // first right sensor 
 #define ECHO_PIN_R1 A14
 
@@ -49,7 +50,7 @@ These elements combine to ensure excellent maneuverability and performance on th
 
 #define TRIGGER_PIN_F 46   //// front sensor 
 #define ECHO_PIN_F A11
-
+```
 - **Functions**:
     - `sensor()`: it measure distancees and assigning values ​​to variables.
 L1 = sonar_L1.ping_cm(); //read the distance from all ultra sonic sensors
